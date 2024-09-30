@@ -1,0 +1,10 @@
+local_costmap:
+  global_frame: map
+  robot_base_frame: base_footprint
+  update_frequency: 5.0 #sets the frequency (in Hz) at which the local costmap should be updated
+  publish_frequency: 10.0 
+  static_map: false
+  rolling_window: true
+  width: 7.0 #sets the width of the local costmap
+  height: 7.0 #sets the height of the local costmap
+  resolution: 0.03 
